@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius:  50px 0px 50px 0px;
+    background-color: #013220;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#logo h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    color: orange
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 100px;
+}
+
+#nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    display: inline-block;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#home-container{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+#home-description{
+    width: 350px;
+    height: fit-content;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#home-container h1{
+    font-size: 45px;
+}
+
+#home-container h4{
+    font-size: 25px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+#home-photo{
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#pricing-container{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#pricing h1{
+    color: black;
+    text-align: center;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.image-holder{
+    width: 400px;
+    height: 400px;
+    border: 1px solid yellow;
+}
+
+.title{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.buy-button{
+    width: 400px;
+    height: 100px;
+    border: 1px solid grey;
+}
